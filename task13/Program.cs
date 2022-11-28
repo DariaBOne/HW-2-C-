@@ -5,10 +5,8 @@ if (a<=99)
 Console.WriteLine("третьей цифры нет");
 else {
 while (a>=1000)
-{
-    digit = a/10;
     a = a/10;
-}
 digit = a%10;
 Console.WriteLine(digit);
-}
+};
+
